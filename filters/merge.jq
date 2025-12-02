@@ -17,17 +17,19 @@
     | map(select(type == "object" and has("company") and (.hidden | not)))
     | sort_by(.startDate)
     | reverse
-    | map({
+    | map(
+        (.descriptions[$role] // .descriptions["devops"]) as $desc |
+        {
         company: .company,
         website: .website,
         startDate: .startDate,
         endDate: .endDate,
-        position: .descriptions[$role].position,
-        business: .descriptions[$role].business,
-        address: .descriptions[$role].address,
-        summary: .descriptions[$role].summary,
-        highlights: .descriptions[$role].highlights,
-        projects: .descriptions[$role].projects
+        position: $desc.position,
+        business: $desc.business,
+        address: $desc.address,
+        summary: $desc.summary,
+        highlights: $desc.highlights,
+        projects: $desc.projects
       })
   ),
   skills: (
