@@ -1,0 +1,23 @@
+{
+  "company": "Sinet Networks",
+  "website": "",
+  "startDate": "2002-12-01",
+  "endDate": "2010-10-31",
+  "descriptions": {
+    "devops": {
+      "position": "UNIX ADMINISTRATOR",
+      "business": "Network Provider",
+      "address": "Ukraine",
+      "summary": "Designing, planning and implementing network infrastructure.",
+      "highlights": []
+    },
+    "devsecops": {
+      "position": "DevSecOps Engineer",
+      "summary": "Security focused summary...",
+      "highlights": [
+        "Security highlight 1",
+        "Security highlight 2"
+      ]
+    }
+  }
+}

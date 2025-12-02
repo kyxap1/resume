@@ -1,0 +1,28 @@
+{
+  "company": "DirtyFlix",
+  "hidden": true,
+  "website": null,
+  "startDate": "2009-06-01",
+  "endDate": "2016-03-31",
+  "descriptions": {
+    "devops": {
+      "position": "Infrastructure Architect",
+      "summary": "Adult videostreaming network.",
+      "highlights": [
+        "storage system",
+        "transcode system",
+        "http-streaming",
+        "content delivery network",
+        "Instruments: perl, bash, ffmpeg, gstreamer, mysql, nginx"
+      ]
+    },
+    "devsecops": {
+      "position": "DevSecOps Engineer",
+      "summary": "Security focused summary...",
+      "highlights": [
+        "Security highlight 1",
+        "Security highlight 2"
+      ]
+    }
+  }
+}

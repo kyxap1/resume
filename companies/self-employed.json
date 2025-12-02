@@ -1,0 +1,22 @@
+{
+  "company": "Self-employed",
+  "website": "kyxap.pro",
+  "startDate": "2021-05-16",
+  "endDate": "2022-06-01",
+  "descriptions": {
+    "devops": {
+      "position": "DEVOPS CONSULTANT - AWS",
+      "business": "IT Consulting, Custom Software Development",
+      "address": "Ukraine",
+      "summary": "As a DevOps Consultant - AWS, I collaborated with client teams to optimize cloud infrastructure and enhance information security. My key accomplishments include:",
+      "highlights": [
+        "Configured and deployed a production-ready AWS ECS cluster to support a Node.js application, ensuring optimal performance and scalability",
+        "Implemented SELinux policies and centralized audit logging to establish proper level of security hardening of OS base images",
+        "Managed an RDS Aurora PostgreSQL database optimized for high availability",
+        "Implemented comprehensive AWS infrastructure security measures",
+        "Helped preparing for a FedRAMP audit",
+        "Collaborated with development and project management teams on AWS best practices and cost optimization"
+      ]
+    }
+  }
+}
