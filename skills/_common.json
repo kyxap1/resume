@@ -13,13 +13,6 @@
       ]
     },
     {
-      "name": "Scripting",
-      "level": "Master",
-      "keywords": [
-        "bash"
-      ]
-    },
-    {
       "name": "Programming Languages",
       "level": "Master",
       "keywords": [
@@ -28,6 +21,13 @@
         "ruby",
         "lua",
         "golang"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "Master",
+      "keywords": [
+        "bash"
       ]
     },
     {

@@ -167,29 +167,24 @@
             margin-left: 14px;
         }
 
-        .skills-grid {
-            column-count: 2;
-            column-gap: 40px;
+        .skills-section {
             margin-left: 35px;
+            margin-bottom: 25px;
         }
 
-        .skill-category {
-            break-inside: avoid;
-            page-break-inside: avoid;
-            margin-bottom: 15px;
+        .skill-row {
+            margin-bottom: 3px;
+            line-height: 1.4;
         }
 
         .skill-name {
             font-weight: bold;
-            margin-bottom: 5px;
-            text-decoration: underline;
-            text-decoration: none;
             font-size: 11pt;
+            margin-right: 4px;
         }
 
-        ul.skill-list {
-            list-style-type: disc;
-            margin-left: 35px;
+        .skill-keywords {
+            font-size: 11pt;
         }
 
         .certificates-list {
@@ -324,15 +319,11 @@
     {% endfor %}
 
     <h2 class="section-title">Skills</h2>
-    <div class="skills-grid">
+    <div class="skills-section">
         {% for skill in skills %}
-        <div class="skill-category">
-            <div class="skill-name">{{ skill.name }}</div>
-            <ul class="skill-list">
-                {% for keyword in skill.keywords %}
-                <li>{{ keyword }}</li>
-                {% endfor %}
-            </ul>
+        <div class="skill-row">
+            <span class="skill-name">{{ skill.name }}:</span>
+            <span class="skill-keywords">{{ skill.keywords | join(', ') }}</span>
         </div>
         {% endfor %}
     </div>

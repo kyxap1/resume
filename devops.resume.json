@@ -31,7 +31,7 @@
       "institution": "Evaluated by Morningside Evaluations, Kelly J. Fadel",
       "area": "Computer Information Systems",
       "studyType": "Bachelor of Science",
-      "endDate": "May 2023",
+      "endDate": "2023",
       "gpa": "",
       "courses": []
     }
@@ -41,19 +41,19 @@
   "certificates": [
     {
       "name": "ISC2 Certified in Cybersecurity (CC)",
-      "date": "2023-06-15",
+      "date": "2023",
       "issuer": "ISC2",
       "url": "https://www.credly.com/badges/0a467676-51c2-4740-868c-ba30e3ad9ec2"
     },
     {
       "name": "AWS Certified Cloud Practitioner",
-      "date": "2024-07-15",
+      "date": "2024",
       "issuer": "Amazon Web Services Training and Certification",
       "url": "https://www.credly.com/badges/eae12888-c795-4af9-a2a7-85c08b12edb0"
     },
     {
       "name": "AWS Certified Security – Specialty",
-      "date": "2024-12-13",
+      "date": "2024",
       "issuer": "Amazon Web Services Training and Certification",
       "url": "https://www.credly.com/badges/0f3ef265-ef50-46bd-9506-c926589eb284"
     }

@@ -10,14 +10,14 @@
       "address": "Ukraine",
       "summary": "As a part of a team ensuring 24/7/365 service availability, I provided third-tier support to a LAMP stack shared hosting platform with over 500 physical nodes. My key responsibilities included:",
       "highlights": [
-        "Designing, planning, installing, configuring, administering, and tuning applications, database, and web servers to maintain optimal performance.",
-        "Developing monitoring and alerting systems to proactively manage infrastructure health and stability.",
-        "Creating a management and deployment system for KVM/Xen hypervisors, along with an internal control panel for streamlined administration.",
+        "Designing, planning, installing, configuring, administering, and tuning applications, database, and web servers across 500+ physical nodes.",
+        "Developing monitoring and alerting systems to proactively manage infrastructure health and stability, maintaining 99.9% uptime.",
+        "Creating a management and deployment system for 30+ KVM/Xen hypervisors, along with an internal control panel for streamlined administration.",
         "Developing the dedicated server management panel,dedikit.net, to enhance user experience and functionality.",
-        "Participating in migrations between data centers, identifying and implementing solutions to address system performance, security breaches, DDoS attacks, and server functionality.",
-        "Collaborating closely with upstream providers and data center staff through tickets and abuse boards, ensuring efficient issue resolution.",
+        "Participating in 3 major migrations between data centers and implementing solutions to mitigate DDoS attacks and security breaches.",
+        "Collaborating closely with upstream providers and data center staff through tickets and abuse boards, ensuring efficient issue resolution and keeping abuse processing time at a consistently low level.",
         "Remotely configuring active L2/L3 network equipment, including Cisco 29xx/35xx switches and routers.",
-        "Assisting customers through email, ICQ, Jabber, and control panel ticketing systems, providing exceptional support and guidance."
+        "Assisting thousands of customers through email, ICQ, Jabber, and control panel ticketing systems, providing exceptional support and guidance."
       ]
     },
     "devsecops": {
