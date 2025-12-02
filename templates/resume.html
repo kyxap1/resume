@@ -127,6 +127,19 @@
             color: #222;
         }
 
+        .work-position-header {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .work-company-sub {
+            font-size: 11pt;
+            font-weight: normal;
+            color: #222;
+            margin-bottom: 6px;
+        }
+
         .job-metadata {
             margin-bottom: 8px;
             font-size: 10.5pt;
@@ -273,11 +286,11 @@
     {% for job in work %}
     <div class="job-entry">
         <div class="job-header">
-            <span class="company-name">{{ job.company }}</span>
+            <span class="work-position-header">{{ job.position }}</span>
             <span class="job-date">{{ job.startDate | format_date }} – {{ job.endDate | format_date if job.endDate else
                 'present' }}</span>
         </div>
-        <div class="job-title">{{ job.position }}</div>
+        <div class="work-company-sub">{{ job.company }}</div>
 
         <div class="job-metadata">
             {% if job.business %}

@@ -5,7 +5,7 @@
             "level": "Master",
             "keywords": [
                 "Immutable Infrastructure",
-                "Infrastructure as a Code",
+                "Infrastructure as Code",
                 "Infrastructure as a Service",
                 "Continuous Integration",
                 "Continuous Deployment"
@@ -28,8 +28,7 @@
                 "terraform",
                 "consul",
                 "vault",
-                "packer",
-                "helm"
+                "packer"
             ]
         },
         {
@@ -38,22 +37,23 @@
             "keywords": [
                 "kubernetes",
                 "docker",
-                "containerd"
+                "containerd",
+                "helm"
             ]
         },
         {
             "name": "AWS",
             "level": "Master",
             "keywords": [
-                "amazon web services",
-                "guardduty",
-                "securityhub",
-                "ec2",
-                "ec2 image builder",
-                "acm",
-                "route53",
-                "s3",
-                "vpc"
+                "Amazon Web Services",
+                "GuardDuty",
+                "SecurityHub",
+                "EC2",
+                "EC2 Image Builder",
+                "ACM",
+                "Route53",
+                "S3",
+                "VPC"
             ]
         }
     ]

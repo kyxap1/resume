@@ -7,7 +7,7 @@ all: devops
 devops:
 	@echo "Building DevOps resume..."
 	@mkdir -p html
-	jq -s -f filters/merge.jq --arg role "devops" resume.json specialties/devops.json companies/*.json skills/_common.json skills/sre.json skills/devops.json > html/resume.json
+	jq -s -f filters/merge.jq --arg role "devops" specialties/_common.json specialties/devops.json companies/*.json skills/_common.json skills/devops.json > html/resume.json
 	python3 scripts/render_resume.py html/resume.json -o html/index.html
 	@echo "Done! Open html/index.html"
 
@@ -15,7 +15,7 @@ devops:
 sre:
 	@echo "Building SRE resume..."
 	@mkdir -p html
-	jq -s -f filters/merge.jq --arg role "sre" resume.json specialties/sre.json companies/*.json skills/_common.json skills/sre.json skills/devops.json > html/resume.json
+	jq -s -f filters/merge.jq --arg role "sre" specialties/_common.json specialties/sre.json companies/*.json skills/_common.json skills/sre.json > html/resume.json
 	python3 scripts/render_resume.py html/resume.json -o html/index.html
 	@echo "Done! Open html/index.html"
 
@@ -23,10 +23,10 @@ sre:
 devsecops:
 	@echo "Building DevSecOps resume..."
 	@mkdir -p html
-	jq -s -f filters/merge.jq --arg role "devsecops" resume.json specialties/devsecops.json companies/*.json skills/_common.json skills/sre.json skills/devops.json skills/devsecops.json > html/resume.json
+	jq -s -f filters/merge.jq --arg role "devsecops" specialties/_common.json specialties/devsecops.json companies/*.json skills/_common.json skills/devops.json skills/devsecops.json > html/resume.json
 	python3 scripts/render_resume.py html/resume.json -o html/index.html
 	@echo "Done! Open html/index.html"
 
 # Clean build artifacts
 clean:
-	rm -rf html
+	rm -f html/*

@@ -1,25 +1,20 @@
 {
   "skills": [
     {
-      "name": "Operating systems and distros",
+      "name": "Linux Distros",
       "level": "Master",
       "keywords": [
-        "Red Hat Enterprise Linux RHEL",
         "Amazon Linux 2",
         "Amazon Linux 2023",
-        "Linux Debian/Ubuntu",
-        "FreeBSD",
-        "Solaris"
+        "Debian",
+        "Ubuntu"
       ]
     },
     {
       "name": "Programming Languages",
       "level": "Master",
       "keywords": [
-        "perl",
-        "php",
-        "ruby",
-        "lua",
+        "python",
         "golang"
       ]
     },
@@ -27,7 +22,8 @@
       "name": "Scripting",
       "level": "Master",
       "keywords": [
-        "bash"
+        "bash",
+        "powershell"
       ]
     },
     {
@@ -35,6 +31,8 @@
       "level": "Master",
       "keywords": [
         "neovim",
+        "vscode",
+        "jq",
         "sed",
         "awk"
       ]
@@ -43,20 +41,17 @@
       "name": "Version Control",
       "level": "Master",
       "keywords": [
-        "git",
-        "svn"
+        "git"
       ]
     },
     {
       "name": "Software Development",
       "level": "Master",
       "keywords": [
-        "jira",
-        "bitbucket",
+        "kanban",
         "github",
-        "slack",
-        "gitlab",
-        "mattermost"
+        "cursor",
+        "antigravity"
       ]
     }
   ]

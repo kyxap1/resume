@@ -1,19 +1,30 @@
 {
     "skills": [
         {
+            "name": "Compliance & Standards",
+            "level": "Master",
+            "keywords": [
+                "CIS Benchmarks",
+                "DISA STIGs"
+            ]
+        },
+        {
             "name": "Security Operations",
             "level": "Master",
             "keywords": [
-                "CIS benchmarks",
-                "DISA STIGs",
-                "antivirus scanning",
-                "patch management",
-                "wazuh SIEM",
-                "incident response",
-                "data encryption at rest and in-transit",
-                "SELinux policies",
-                "image hardening",
-                "pki"
+                "SIEM (Wazuh)",
+                "Incident Response",
+                "Patch Management"
+            ]
+        },
+        {
+            "name": "Infrastructure Security",
+            "level": "Master",
+            "keywords": [
+                "SELinux",
+                "Image Hardening",
+                "Data Encryption",
+                "PKI"
             ]
         }
     ]
