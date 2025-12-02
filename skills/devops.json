@@ -1,0 +1,60 @@
+{
+    "skills": [
+        {
+            "name": "DevOps Patterns",
+            "level": "Master",
+            "keywords": [
+                "Immutable Infrastructure",
+                "Infrastructure as a Code",
+                "Infrastructure as a Service",
+                "Continuous Integration",
+                "Continuous Deployment"
+            ]
+        },
+        {
+            "name": "Continuous Integration",
+            "level": "Master",
+            "keywords": [
+                "gitlab",
+                "jenkins",
+                "github actions"
+            ]
+        },
+        {
+            "name": "Infrastructure Automation",
+            "level": "Master",
+            "keywords": [
+                "ansible",
+                "terraform",
+                "consul",
+                "vault",
+                "packer",
+                "helm"
+            ]
+        },
+        {
+            "name": "Containers",
+            "level": "Master",
+            "keywords": [
+                "kubernetes",
+                "docker",
+                "containerd"
+            ]
+        },
+        {
+            "name": "AWS",
+            "level": "Master",
+            "keywords": [
+                "amazon web services",
+                "guardduty",
+                "securityhub",
+                "ec2",
+                "ec2 image builder",
+                "acm",
+                "route53",
+                "s3",
+                "vpc"
+            ]
+        }
+    ]
+}

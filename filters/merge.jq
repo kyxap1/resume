@@ -25,7 +25,8 @@ $base + {
         business: .descriptions[$role].business,
         address: .descriptions[$role].address,
         summary: .descriptions[$role].summary,
-        highlights: .descriptions[$role].highlights
+        highlights: .descriptions[$role].highlights,
+        projects: .descriptions[$role].projects
       })
   ),
   skills: (

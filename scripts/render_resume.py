@@ -29,6 +29,18 @@ def render_resume(json_path, output_path, template_dir='templates', template_nam
         autoescape=select_autoescape(['html', 'xml'])
     )
 
+    def format_date(value):
+        if not value:
+            return value
+        try:
+            from datetime import datetime
+            date_obj = datetime.strptime(value, '%Y-%m-%d')
+            return date_obj.strftime('%B %Y')
+        except ValueError:
+            return value
+
+    env.filters['format_date'] = format_date
+
     try:
         template = env.get_template(template_name)
     except Exception as e:

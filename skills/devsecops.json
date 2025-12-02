@@ -1,0 +1,20 @@
+{
+    "skills": [
+        {
+            "name": "Security Operations",
+            "level": "Master",
+            "keywords": [
+                "CIS benchmarks",
+                "DISA STIGs",
+                "antivirus scanning",
+                "patch management",
+                "wazuh SIEM",
+                "incident response",
+                "data encryption at rest and in-transit",
+                "SELinux policies",
+                "image hardening",
+                "pki"
+            ]
+        }
+    ]
+}

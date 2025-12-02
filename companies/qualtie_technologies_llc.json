@@ -1,6 +1,6 @@
 {
   "company": "Qualtie Technologies LLC",
-  "website": "www.qualtie.com",
+  "website": "qualtie.com",
   "startDate": "2022-11-01",
   "endDate": "present",
   "descriptions": {
@@ -10,15 +10,15 @@
       "address": "Doylestown, PA, US",
       "summary": "As Senior Engineer of DevSecOps at Qualtie, I helped our customer, Sparta Science, to implement robust information security practices in the cloud, and prepare CI/CD, build and deploy pipelines for their Federal environment on Palantir FedStart. My key responsibilities and accomplishments include:",
       "highlights": [
-        "Developing helm charts and build/deploy pipelines for the deployment to federal environment (FedStart)",
-        "Implementing hardening of container images and DoD-approved security configuration on helm charts, as well as vulnerability patching pipelines for Federal environment",
-        "Developing secure EC2 image builder pipelines with CIS-benchmarked and STIG'd \"golden\" AMIs and base container images for enhanced security",
-        "Configuring and managing AWS GuardDuty and SecurityHub to monitor and detect threats across the AWS environment",
-        "Setting up and configuring a centralized logging system based on AWS Elasticsearch for efficient audit log management and analysis",
-        "Implementing Wazuh and Nessus Pro for runtime vulnerability scanning, ensuring proactive identification and mitigation of potential risks",
-        "Establishing static code analysis in GitHub and dependency scanning with GitHub Dependabot for continuous security assessment of code and dependencies",
-        "Orchestrating continuous penetration testing using GitHub Actions to validate the resilience of the infrastructure and applications against cyber attacks",
-        "Consulting Sparta Science on the preparation for a successful SOC 2 Type 2 audit, ensuring adherence to industry standards and regulatory requirements"
+        "Developing helm charts and build/deploy pipelines for the deployment to federal environment (FedStart).",
+        "Implementing hardening of container images and DoD-approved security configuration on helm charts, as well as vulnerability patching pipelines for Federal environment.",
+        "Developing secure EC2 image builder pipelines with CIS-benchmarked and STIG'd \"golden\" AMIs and base container images for enhanced security.",
+        "Configuring and managing AWS GuardDuty and SecurityHub to monitor and detect threats across the AWS environment.",
+        "Setting up and configuring a centralized logging system based on AWS Elasticsearch for efficient audit log management and analysis.",
+        "Implementing Wazuh and Nessus Pro for runtime vulnerability scanning, ensuring proactive identification and mitigation of potential risks.",
+        "Establishing static code analysis in GitHub and dependency scanning with GitHub Dependabot for continuous security assessment of code and dependencies.",
+        "Orchestrating continuous penetration testing using GitHub Actions to validate the resilience of the infrastructure and applications against cyber attacks.",
+        "Consulting Sparta Science on the preparation for a successful SOC 2 Type 2 audit, ensuring adherence to industry standards and regulatory requirements."
       ]
     }
   }
