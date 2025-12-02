@@ -15,14 +15,6 @@
         "Content delivery network.",
         "Instruments: perl, bash, ffmpeg, gstreamer, mysql, nginx."
       ]
-    },
-    "devsecops": {
-      "position": "DevSecOps Engineer",
-      "summary": "Security focused summary...",
-      "highlights": [
-        "Security highlight 1",
-        "Security highlight 2"
-      ]
     }
   }
 }

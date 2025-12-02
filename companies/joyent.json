@@ -14,14 +14,6 @@
         "Linux images build system.",
         "Instruments: [ pxe, sh, bash, nodejs, mongodb, docker, windows aik, linux, smartos, solaris ]."
       ]
-    },
-    "devsecops": {
-      "position": "DevSecOps Engineer",
-      "summary": "Security focused summary...",
-      "highlights": [
-        "Security highlight 1",
-        "Security highlight 2"
-      ]
     }
   }
 }

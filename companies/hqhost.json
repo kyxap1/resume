@@ -19,14 +19,6 @@
         "Remotely configuring active L2/L3 network equipment, including Cisco 29xx/35xx switches and routers.",
         "Assisting thousands of customers through email, ICQ, Jabber, and control panel ticketing systems, providing exceptional support and guidance."
       ]
-    },
-    "devsecops": {
-      "position": "DevSecOps Engineer",
-      "summary": "Security focused summary...",
-      "highlights": [
-        "Security highlight 1",
-        "Security highlight 2"
-      ]
     }
   }
 }

@@ -5,12 +5,13 @@
 # We need to separate them and construct the final object.
 
 # 1. Collect all inputs into an array
-# 1. Separate base (devops.resume.json) from other inputs
+# 1. Separate base (resume.json), override (specialties/*.json), and other inputs
 .[0] as $base |
-.[1:] as $others |
+.[1] as $override |
+.[2:] as $others |
 
 # 2. Construct the final object
-$base + {
+($base * $override) + {
   work: (
     $others
     | map(select(type == "object" and has("company") and (.hidden | not)))
