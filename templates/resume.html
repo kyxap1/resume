@@ -276,7 +276,7 @@
             </div>
             <h2 class="section-title">Summary</h2>
             <div class="summary-block">
-                <p>{{ basics.summary }}</p>
+                <p>{{ basics.summary | markdown_bold }}</p>
             </div>
         </div>
     </header>
@@ -309,7 +309,7 @@
         </div>
 
         <div class="job-description">
-            {{ job.summary }}
+            {{ job.summary | markdown_bold }}
         </div>
 
         {% if job.projects %}
@@ -317,14 +317,14 @@
         <div class="project-name">{{ project.name }}</div>
         <ul class="highlights">
             {% for highlight in project.highlights %}
-            <li>{{ highlight }}</li>
+            <li>{{ highlight | markdown_bold }}</li>
             {% endfor %}
         </ul>
         {% endfor %}
         {% elif job.highlights %}
         <ul class="highlights">
             {% for highlight in job.highlights %}
-            <li>{{ highlight }}</li>
+            <li>{{ highlight | markdown_bold }}</li>
             {% endfor %}
         </ul>
         {% endif %}
@@ -336,7 +336,7 @@
         {% for skill in skills %}
         <div class="skill-row">
             <span class="skill-name">{{ skill.name }}:</span>
-            <span class="skill-keywords">{{ skill.keywords | join(', ') }}</span>
+            <span class="skill-keywords">{{ skill.keywords | join(', ') | markdown_bold }}</span>
         </div>
         {% endfor %}
     </div>
@@ -366,7 +366,7 @@
     {% for edu in education %}
     <div class="job-entry">
         <div class="job-header">
-            <span class="company-name">{{ edu.institution }}</span>
+            <span class="work-position-header">{{ edu.studyType }} in {{ edu.area }}</span>
             <span class="job-date">
                 {% if edu.startDate %}
                 {{ edu.startDate | format_date }} – {{ edu.endDate | format_date if edu.endDate else 'present' }}
@@ -375,7 +375,7 @@
                 {% endif %}
             </span>
         </div>
-        <div class="job-title">{{ edu.studyType }} in {{ edu.area }}</div>
+        <div class="work-company-sub">{{ edu.institution }}</div>
     </div>
     {% endfor %}
     {% endif %}

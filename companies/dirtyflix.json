@@ -9,11 +9,11 @@
       "position": "Infrastructure Architect",
       "summary": "Adult videostreaming network.",
       "highlights": [
-        "Storage system.",
-        "Transcode system.",
-        "Http-streaming.",
-        "Content delivery network.",
-        "Instruments: perl, bash, ffmpeg, gstreamer, mysql, nginx."
+        "**Storage system**.",
+        "**Transcode system**.",
+        "**Http-streaming**.",
+        "**Content delivery network**.",
+        "Instruments: **perl**, **bash**, **ffmpeg**, **gstreamer**, **mysql**, **nginx**."
       ]
     }
   }

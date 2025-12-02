@@ -4,6 +4,8 @@ import os
 import sys
 import urllib.request
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup
+import re
 
 def load_json(path_or_url):
     """Load JSON from a local file or URL."""
@@ -40,6 +42,16 @@ def render_resume(json_path, output_path, template_dir='templates', template_nam
             return value
 
     env.filters['format_date'] = format_date
+
+    def markdown_bold(value):
+        """Convert **text** to <b>text</b>."""
+        if isinstance(value, str):
+            # Replace **text** with <b>text</b>
+            bolded = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', value)
+            return Markup(bolded)
+        return value
+
+    env.filters['markdown_bold'] = markdown_bold
 
     try:
         template = env.get_template(template_name)
