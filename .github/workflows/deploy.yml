@@ -17,33 +17,26 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install System Dependencies (for WeasyPrint)
+          python-version: 3.12
+          pip-install: requirements.txt
+          cache: pip
+      - name: Install WeasyPrint dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y python3-cffi python3-brotli libpango-1.0-0 libpangoft2-1.0-0
-
-      - name: Install Python Dependencies
-        run: pip install -r requirements.txt
-
+          #apt-get update
+          apt-get install -y pango1.0-tools
       - name: Build Resume
-        run: make all
-
+        run: make devsecops
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './html'
-
+          path: "./html"
   deploy:
     environment:
       name: github-pages
