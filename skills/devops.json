@@ -43,6 +43,8 @@
             "level": "Master",
             "keywords": [
                 "Amazon Web Services",
+                "ECS",
+                "EKS",
                 "GuardDuty",
                 "SecurityHub",
                 "EC2",

@@ -30,7 +30,13 @@
       "level": "Master",
       "keywords": [
         "neovim",
-        "vscode",
+        "vscode"
+      ]
+    },
+    {
+      "name": "Text Filtering",
+      "level": "Master",
+      "keywords": [
         "jq",
         "sed",
         "awk"
@@ -42,6 +48,7 @@
       "keywords": [
         "kanban",
         "github",
+        "gitlab",
         "cursor",
         "antigravity"
       ]
@@ -50,8 +57,9 @@
       "name": "Databases",
       "level": "Master",
       "keywords": [
-        "mysql",
-        "postgresql"
+        "postgresql",
+        "cassandra",
+        "mysql"
       ]
     },
     {
@@ -66,9 +74,18 @@
       "name": "Code Quality",
       "level": "Master",
       "keywords": [
-        "sonarcube"
+        "sonarcube",
+        "SBOM"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "level": "Master",
+      "keywords": [
+        "hadoop",
+        "spark",
+        "kafka"
       ]
     }
-
   ]
 }
